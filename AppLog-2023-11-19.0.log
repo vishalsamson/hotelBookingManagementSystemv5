@@ -1,0 +1,232 @@
+2023-11-19 14:19:39 [INFO] - Starting ReviewServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 8136 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-19 14:19:39 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-19 14:19:39 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-19 14:19:39 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@412c995d
+2023-11-19 14:19:41 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-19 14:19:41 [INFO] - Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2023-11-19 14:19:43 [INFO] - HikariPool-1 - Starting...
+2023-11-19 14:19:44 [INFO] - HikariPool-1 - Start completed.
+2023-11-19 14:19:45 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-19 14:19:45 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-19 14:19:47 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-19 14:19:47 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b14628b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64657b13, org.springframework.security.web.context.SecurityContextPersistenceFilter@77eb76f, org.springframework.security.web.header.HeaderWriterFilter@514eefc4, org.springframework.security.web.authentication.logout.LogoutFilter@367e0b0e, com.cg.hbm.security.JwtAuthenticationFilter@3db3668, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1efa258e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50508ed3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@686ee555, org.springframework.security.web.session.SessionManagementFilter@56511eda, org.springframework.security.web.access.ExceptionTranslationFilter@12d24c43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f2e0945]
+2023-11-19 14:19:47 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-19 14:19:48 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-19 14:19:48 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-19 14:19:48 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-19 14:19:48 [INFO] - Context refreshed
+2023-11-19 14:19:48 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-19 14:19:48 [INFO] - Scanning for api listing references
+2023-11-19 14:19:49 [INFO] - Started ReviewServiceImplTest in 10.04 seconds (JVM running for 12.693)
+2023-11-19 14:19:49 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@412c995d, started on Sun Nov 19 14:19:39 IST 2023
+2023-11-19 14:19:49 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-19 14:19:49 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-19 14:19:49 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-19 14:20:07 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 9636 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-19 14:20:07 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-19 14:20:07 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-19 14:20:07 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-19 14:20:07 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-19 14:20:08 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-19 14:20:08 [INFO] - Finished Spring Data repository scanning in 103 ms. Found 6 JPA repository interfaces.
+2023-11-19 14:20:10 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-19 14:20:10 [INFO] - Starting service [Tomcat]
+2023-11-19 14:20:10 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-19 14:20:10 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-19 14:20:10 [INFO] - Root WebApplicationContext: initialization completed in 2996 ms
+2023-11-19 14:20:10 [INFO] - HikariPool-1 - Starting...
+2023-11-19 14:20:11 [INFO] - HikariPool-1 - Start completed.
+2023-11-19 14:20:12 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-19 14:20:13 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-19 14:20:13 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-19 14:20:13 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-19 14:20:14 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31bd6036, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4564b8b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@123ca23b, org.springframework.security.web.header.HeaderWriterFilter@11ba969b, org.springframework.security.web.authentication.logout.LogoutFilter@2c268ccf, com.cg.hbm.security.JwtAuthenticationFilter@29a7138d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79597bc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d277186, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33d825c5, org.springframework.security.web.session.SessionManagementFilter@83956c1, org.springframework.security.web.access.ExceptionTranslationFilter@1c4da3dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f785b45]
+2023-11-19 14:20:14 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-19 14:20:14 [INFO] - LiveReload server is running on port 35729
+2023-11-19 14:20:14 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-19 14:20:14 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-19 14:20:14 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-19 14:20:14 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-19 14:20:14 [INFO] - Context refreshed
+2023-11-19 14:20:14 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-19 14:20:14 [INFO] - Scanning for api listing references
+2023-11-19 14:20:15 [INFO] - Started HotelBookingManagementSystemApplication in 8.78 seconds (JVM running for 9.626)
+2023-11-19 14:20:49 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-19 14:20:49 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-19 14:20:49 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-19 14:20:49 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-19 14:20:49 [DEBUG] - Detected FixedThemeResolver
+2023-11-19 14:20:49 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4b3a2e42
+2023-11-19 14:20:49 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@380f21a2
+2023-11-19 14:20:49 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-19 14:20:49 [INFO] - Completed initialization in 4 ms
+2023-11-19 14:20:49 [DEBUG] - OPTIONS "/public/register", parameters={}
+2023-11-19 14:20:49 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:20:49 [DEBUG] - Completed 200 OK
+2023-11-19 14:20:49 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 14:20:49 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:20:49 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Vishal Samson, email=vishaljagale942@gmail.com, password=Vish942, mobile=965 (truncated)...]
+2023-11-19 14:20:49 [INFO] - Received registration request for user: Vishal Samson
+2023-11-19 14:20:50 [INFO] - User successfully registered: vishaljagale942@gmail.com
+2023-11-19 14:20:50 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 14:20:50 [DEBUG] - Writing [UserResponseDTO(id=34, username=vishaljagale942@gmail.com, email=vishaljagale942@gmail.com, password (truncated)...]
+2023-11-19 14:20:50 [DEBUG] - Completed 201 CREATED
+2023-11-19 14:54:27 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 21892 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-19 14:54:27 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-19 14:54:27 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-19 14:54:28 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-19 14:54:28 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-19 14:54:29 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-19 14:54:29 [INFO] - Finished Spring Data repository scanning in 93 ms. Found 6 JPA repository interfaces.
+2023-11-19 14:54:30 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-19 14:54:30 [INFO] - Starting service [Tomcat]
+2023-11-19 14:54:30 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-19 14:54:31 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-19 14:54:31 [INFO] - Root WebApplicationContext: initialization completed in 3045 ms
+2023-11-19 14:54:31 [INFO] - HikariPool-1 - Starting...
+2023-11-19 14:54:32 [INFO] - HikariPool-1 - Start completed.
+2023-11-19 14:54:33 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-19 14:54:34 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-19 14:54:34 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-19 14:54:34 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-19 14:54:34 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@165b2245, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5be8e84f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5764f7db, org.springframework.security.web.header.HeaderWriterFilter@1a23911b, org.springframework.security.web.authentication.logout.LogoutFilter@177de86, com.cg.hbm.security.JwtAuthenticationFilter@69ca62e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a17c17e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a53fcbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71ee392a, org.springframework.security.web.session.SessionManagementFilter@7fd744a1, org.springframework.security.web.access.ExceptionTranslationFilter@ecde9bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40334cc0]
+2023-11-19 14:54:34 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-19 14:54:35 [INFO] - LiveReload server is running on port 35729
+2023-11-19 14:54:35 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-19 14:54:35 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-19 14:54:35 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-19 14:54:35 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-19 14:54:35 [INFO] - Context refreshed
+2023-11-19 14:54:35 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-19 14:54:35 [INFO] - Scanning for api listing references
+2023-11-19 14:54:35 [INFO] - Started HotelBookingManagementSystemApplication in 8.513 seconds (JVM running for 9.359)
+2023-11-19 14:54:53 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-19 14:54:53 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-19 14:54:53 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-19 14:54:53 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-19 14:54:53 [DEBUG] - Detected FixedThemeResolver
+2023-11-19 14:54:53 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@514643f2
+2023-11-19 14:54:53 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3bee72c5
+2023-11-19 14:54:53 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-19 14:54:53 [INFO] - Completed initialization in 5 ms
+2023-11-19 14:54:53 [DEBUG] - OPTIONS "/public/register", parameters={}
+2023-11-19 14:54:53 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:54:53 [DEBUG] - Completed 200 OK
+2023-11-19 14:54:53 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 14:54:53 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:54:53 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Vishal Samson, email=vishaljagale942@gmail.com, password=Vish942, mobile=965 (truncated)...]
+2023-11-19 14:54:53 [INFO] - Received registration request for user: Vishal Samson
+2023-11-19 14:54:54 [INFO] - User successfully registered: vishaljagale942@gmail.com
+2023-11-19 14:54:54 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 14:54:54 [DEBUG] - Writing [UserResponseDTO(id=35, username=vishaljagale942@gmail.com, email=vishaljagale942@gmail.com, password (truncated)...]
+2023-11-19 14:54:54 [DEBUG] - Completed 201 CREATED
+2023-11-19 14:58:33 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 14:58:33 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:58:33 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Sanskruti Sarwade, email=sanskrutisarwade28@gmail.com, password=Sans094, mob (truncated)...]
+2023-11-19 14:58:33 [INFO] - Received registration request for user: Sanskruti Sarwade
+2023-11-19 14:58:33 [INFO] - User successfully registered: sanskrutisarwade28@gmail.com
+2023-11-19 14:58:33 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 14:58:33 [DEBUG] - Writing [UserResponseDTO(id=36, username=sanskrutisarwade28@gmail.com, email=sanskrutisarwade28@gmail.com, pa (truncated)...]
+2023-11-19 14:58:33 [DEBUG] - Completed 201 CREATED
+2023-11-19 14:58:54 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 14:58:54 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 14:58:54 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Sanskruti Sarwade, email=sanskrutisarwade28@gmail.com, password=Sans094, mob (truncated)...]
+2023-11-19 14:58:54 [INFO] - Received registration request for user: Sanskruti Sarwade
+2023-11-19 14:58:55 [INFO] - User successfully registered: sanskrutisarwade28@gmail.com
+2023-11-19 14:58:55 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 14:58:55 [DEBUG] - Writing [UserResponseDTO(id=37, username=sanskrutisarwade28@gmail.com, email=sanskrutisarwade28@gmail.com, pa (truncated)...]
+2023-11-19 14:58:55 [DEBUG] - Completed 201 CREATED
+2023-11-19 15:00:50 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 15:00:50 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 15:00:50 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Sanskruti Sarwade, email=sanskrutisarwade28@gmail.com, password=Vish942, mob (truncated)...]
+2023-11-19 15:00:50 [INFO] - Received registration request for user: Sanskruti Sarwade
+2023-11-19 15:00:50 [INFO] - User successfully registered: sanskrutisarwade28@gmail.com
+2023-11-19 15:00:50 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:00:50 [DEBUG] - Writing [UserResponseDTO(id=38, username=sanskrutisarwade28@gmail.com, email=sanskrutisarwade28@gmail.com, pa (truncated)...]
+2023-11-19 15:00:50 [DEBUG] - Completed 201 CREATED
+2023-11-19 15:20:18 [DEBUG] - POST "/public/register", parameters={}
+2023-11-19 15:20:18 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#registerNewUser(UserRequestDTO)
+2023-11-19 15:20:18 [DEBUG] - Read "application/json;charset=UTF-8" to [UserRequestDTO(username=Sanskruti Sarwade, email=sanskrutisarwade28@gmail.com, password=Sans094, mob (truncated)...]
+2023-11-19 15:20:18 [INFO] - Received registration request for user: Sanskruti Sarwade
+2023-11-19 15:20:18 [INFO] - User successfully registered: sanskrutisarwade28@gmail.com
+2023-11-19 15:20:18 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:20:18 [DEBUG] - Writing [UserResponseDTO(id=39, username=sanskrutisarwade28@gmail.com, email=sanskrutisarwade28@gmail.com, pa (truncated)...]
+2023-11-19 15:20:18 [DEBUG] - Completed 201 CREATED
+2023-11-19 15:48:46 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-19 15:48:46 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-19 15:48:46 [DEBUG] - Completed 200 OK
+2023-11-19 15:48:46 [DEBUG] - POST "/public/login", parameters={}
+2023-11-19 15:48:46 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-19 15:48:46 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishaljagale942@gmail.com, password=Vish942)]
+2023-11-19 15:48:46 [INFO] - Attempting to authenticate user: vishaljagale942@gmail.com
+2023-11-19 15:48:46 [INFO] - User 'vishaljagale942@gmail.com' successfully authenticated and token generated.
+2023-11-19 15:48:46 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:48:46 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxqYWdhbGU5NDJAZ21haWwuY29tIiwiZXhwIjoxN (truncated)...]
+2023-11-19 15:48:46 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-19 15:51:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-19 15:51:12 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:12 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@1c356000]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-19 15:51:12 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:12 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@63ecd80e]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-19 15:51:12 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:12 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@310045b8]]
+2023-11-19 15:51:12 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:12 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-19 15:51:12 [DEBUG] - GET "/", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-19 15:51:12 [DEBUG] - Resource not found
+2023-11-19 15:51:12 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-19 15:51:12 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-19 15:51:12 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:12 [DEBUG] - Writing [{timestamp=Sun Nov 19 15:51:12 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-19 15:51:12 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-19 15:51:12 [DEBUG] - GET "/csrf", parameters={}
+2023-11-19 15:51:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-19 15:51:13 [DEBUG] - Resource not found
+2023-11-19 15:51:13 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-19 15:51:13 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-19 15:51:13 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-19 15:51:13 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:13 [DEBUG] - Writing [{timestamp=Sun Nov 19 15:51:13 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-19 15:51:13 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-19 15:51:13 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-19 15:51:13 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@9629ee0]
+2023-11-19 15:51:13 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:13 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-19 15:51:13 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:13 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:13 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-19 15:51:13 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:13 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-19 15:51:13 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-19 15:51:13 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:13 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-19 15:51:13 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:13 [DEBUG] - Completed 200 OK
+2023-11-19 15:51:13 [DEBUG] - Completed 200 OK

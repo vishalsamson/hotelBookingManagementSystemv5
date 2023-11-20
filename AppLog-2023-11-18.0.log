@@ -1,0 +1,256 @@
+2023-11-18 14:19:09 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 6460 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-18 14:19:09 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-18 14:19:09 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-18 14:19:09 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-18 14:19:09 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-18 14:19:13 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 14:19:13 [INFO] - Finished Spring Data repository scanning in 256 ms. Found 6 JPA repository interfaces.
+2023-11-18 14:19:16 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-18 14:19:16 [INFO] - Starting service [Tomcat]
+2023-11-18 14:19:16 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 14:19:16 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 14:19:16 [INFO] - Root WebApplicationContext: initialization completed in 7190 ms
+2023-11-18 14:19:18 [INFO] - HikariPool-1 - Starting...
+2023-11-18 14:19:19 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 14:19:22 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:19:23 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-18 14:19:23 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 14:19:24 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-18 14:19:25 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e866945, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c51217e, org.springframework.security.web.context.SecurityContextPersistenceFilter@f7c5ced, org.springframework.security.web.header.HeaderWriterFilter@90e008a, org.springframework.security.web.authentication.logout.LogoutFilter@5b2cd31d, com.cg.hbm.security.JwtAuthenticationFilter@6c1683b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@233d5931, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@332f40d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@244d64f0, org.springframework.security.web.session.SessionManagementFilter@56cbd9a3, org.springframework.security.web.access.ExceptionTranslationFilter@2ba2b3ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2aa004c7]
+2023-11-18 14:19:25 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 14:19:25 [INFO] - LiveReload server is running on port 35729
+2023-11-18 14:19:25 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 14:19:25 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 14:19:25 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 14:19:26 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-18 14:19:26 [INFO] - Context refreshed
+2023-11-18 14:19:26 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 14:19:26 [INFO] - Scanning for api listing references
+2023-11-18 14:19:27 [INFO] - Started HotelBookingManagementSystemApplication in 19.291 seconds (JVM running for 21.106)
+2023-11-18 14:19:38 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-18 14:19:38 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-18 14:19:38 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-18 14:19:38 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-18 14:19:38 [DEBUG] - Detected FixedThemeResolver
+2023-11-18 14:19:38 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7086b182
+2023-11-18 14:19:38 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@66eca96e
+2023-11-18 14:19:38 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-18 14:19:38 [INFO] - Completed initialization in 6 ms
+2023-11-18 14:19:38 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-18 14:19:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:38 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:38 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-18 14:19:38 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-18 14:19:38 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:38 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:38 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:38 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:38 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:39 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-18 14:19:39 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-18 14:19:39 [DEBUG] - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2023-11-18 14:19:39 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:39 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@4a4faea7]
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-18 14:19:39 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-18 14:19:39 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:39 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@57ad175e]
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-18 14:19:39 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-18 14:19:39 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:39 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@6876ddb2]]
+2023-11-18 14:19:39 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:39 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-18 14:19:39 [DEBUG] - GET "/", parameters={}
+2023-11-18 14:19:39 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:39 [DEBUG] - Resource not found
+2023-11-18 14:19:39 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 14:19:39 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 14:19:39 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 14:19:39 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:39 [DEBUG] - Writing [{timestamp=Sat Nov 18 14:19:39 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 14:19:39 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 14:19:40 [DEBUG] - GET "/csrf", parameters={}
+2023-11-18 14:19:40 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:40 [DEBUG] - Resource not found
+2023-11-18 14:19:40 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 14:19:40 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 14:19:40 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 14:19:40 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:40 [DEBUG] - Writing [{timestamp=Sat Nov 18 14:19:40 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 14:19:40 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 14:19:40 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-18 14:19:40 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:40 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:40 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:40 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@2365e9cc]
+2023-11-18 14:19:40 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:40 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-18 14:19:40 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-18 14:19:40 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-18 14:19:40 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:40 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:40 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:40 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:40 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:40 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-18 14:19:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:47 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-18 14:19:48 [DEBUG] - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@317cb8d3]
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:48 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@543d0132]
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@739b9737]]
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-18 14:19:48 [DEBUG] - GET "/", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:48 [DEBUG] - Resource not found
+2023-11-18 14:19:48 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 14:19:48 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [{timestamp=Sat Nov 18 14:19:48 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 14:19:48 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 14:19:48 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:48 [DEBUG] - GET "/csrf", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 14:19:48 [DEBUG] - Resource not found
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 14:19:48 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [{timestamp=Sat Nov 18 14:19:48 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 14:19:48 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:19:48 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@67580d0e]
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 14:19:48 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-18 14:19:48 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:48 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:48 [DEBUG] - Completed 200 OK
+2023-11-18 14:19:57 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2023-11-18 14:19:57 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:19:57 [DEBUG] - Completed 200 OK
+2023-11-18 14:20:26 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-11-18 14:20:26 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-18 14:20:26 [DEBUG] - Completed 200 OK
+2023-11-18 14:23:55 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 11240 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-18 14:23:55 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-18 14:23:55 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-18 14:23:55 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@75b21c3b
+2023-11-18 14:23:57 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 14:23:57 [INFO] - Finished Spring Data repository scanning in 126 ms. Found 6 JPA repository interfaces.
+2023-11-18 14:23:59 [INFO] - HikariPool-1 - Starting...
+2023-11-18 14:23:59 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 14:24:00 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:24:00 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 14:24:02 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-18 14:24:03 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62672ad5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f5b81f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@75707f05, org.springframework.security.web.header.HeaderWriterFilter@138a51d5, org.springframework.security.web.authentication.logout.LogoutFilter@54632794, com.cg.hbm.security.JwtAuthenticationFilter@2512155e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1df8ea34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a8d6eb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c020e58, org.springframework.security.web.session.SessionManagementFilter@17d606c9, org.springframework.security.web.access.ExceptionTranslationFilter@4f8488ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13e12ab6]
+2023-11-18 14:24:03 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 14:24:03 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 14:24:04 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 14:24:04 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 14:24:04 [INFO] - Context refreshed
+2023-11-18 14:24:04 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 14:24:04 [INFO] - Scanning for api listing references
+2023-11-18 14:24:04 [INFO] - Started UserServiceImplTest in 9.825 seconds (JVM running for 12.251)
+2023-11-18 14:24:05 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@75b21c3b, started on Sat Nov 18 14:23:55 IST 2023
+2023-11-18 14:24:05 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:24:05 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-18 14:24:05 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-18 14:24:44 [INFO] - Starting RoomDetailsServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 6028 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-18 14:24:44 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-18 14:24:44 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-18 14:24:44 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@412c995d
+2023-11-18 14:24:45 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 14:24:45 [INFO] - Finished Spring Data repository scanning in 137 ms. Found 6 JPA repository interfaces.
+2023-11-18 14:24:47 [INFO] - HikariPool-1 - Starting...
+2023-11-18 14:24:48 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 14:24:49 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:24:49 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 14:24:51 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-18 14:24:51 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d41518b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4708acc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@560e1459, org.springframework.security.web.header.HeaderWriterFilter@50c99398, org.springframework.security.web.authentication.logout.LogoutFilter@78907a46, com.cg.hbm.security.JwtAuthenticationFilter@3b2114ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d2ca3a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f45290f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59cc46a4, org.springframework.security.web.session.SessionManagementFilter@57e83608, org.springframework.security.web.access.ExceptionTranslationFilter@46c7c593, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62672ad5]
+2023-11-18 14:24:52 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 14:24:52 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 14:24:52 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 14:24:52 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 14:24:53 [INFO] - Context refreshed
+2023-11-18 14:24:53 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 14:24:53 [INFO] - Scanning for api listing references
+2023-11-18 14:24:53 [INFO] - Started RoomDetailsServiceImplTest in 9.775 seconds (JVM running for 11.646)
+2023-11-18 14:24:54 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@412c995d, started on Sat Nov 18 14:24:44 IST 2023
+2023-11-18 14:24:54 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:24:54 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-18 14:24:54 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-18 14:25:22 [INFO] - Starting ReviewServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 1816 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-18 14:25:22 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-18 14:25:22 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-18 14:25:22 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@412c995d
+2023-11-18 14:25:23 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 14:25:23 [INFO] - Finished Spring Data repository scanning in 109 ms. Found 6 JPA repository interfaces.
+2023-11-18 14:25:26 [INFO] - HikariPool-1 - Starting...
+2023-11-18 14:25:26 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 14:25:27 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:25:27 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 14:25:29 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-18 14:25:29 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1aaa3406, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@791dcda7, org.springframework.security.web.context.SecurityContextPersistenceFilter@54632794, org.springframework.security.web.header.HeaderWriterFilter@12d24c43, org.springframework.security.web.authentication.logout.LogoutFilter@79de00af, com.cg.hbm.security.JwtAuthenticationFilter@c7aac7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@760f4310, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c815478, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c95587, org.springframework.security.web.session.SessionManagementFilter@7f680a9a, org.springframework.security.web.access.ExceptionTranslationFilter@183e8c8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45ed58b]
+2023-11-18 14:25:30 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 14:25:30 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 14:25:30 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 14:25:30 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 14:25:31 [INFO] - Context refreshed
+2023-11-18 14:25:31 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 14:25:31 [INFO] - Scanning for api listing references
+2023-11-18 14:25:31 [INFO] - Started ReviewServiceImplTest in 10.146 seconds (JVM running for 11.942)
+2023-11-18 14:25:32 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@412c995d, started on Sat Nov 18 14:25:22 IST 2023
+2023-11-18 14:25:32 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 14:25:32 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-18 14:25:32 [INFO] - HikariPool-1 - Shutdown completed.

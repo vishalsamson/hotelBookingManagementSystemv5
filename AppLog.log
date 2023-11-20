@@ -1,0 +1,1271 @@
+2023-11-20 08:58:26 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 19064 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 08:58:26 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 08:58:26 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 08:58:26 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-20 08:58:26 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-20 08:58:29 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 08:58:29 [INFO] - Finished Spring Data repository scanning in 220 ms. Found 6 JPA repository interfaces.
+2023-11-20 08:58:31 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 08:58:31 [INFO] - Starting service [Tomcat]
+2023-11-20 08:58:31 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 08:58:32 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 08:58:32 [INFO] - Root WebApplicationContext: initialization completed in 5839 ms
+2023-11-20 08:58:33 [INFO] - HikariPool-1 - Starting...
+2023-11-20 08:58:33 [INFO] - HikariPool-1 - Start completed.
+2023-11-20 08:58:36 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 08:58:38 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 08:58:38 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 08:58:40 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 08:58:40 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70b6fbd2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27f40d9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@515cd595, org.springframework.security.web.header.HeaderWriterFilter@23680fd7, org.springframework.security.web.authentication.logout.LogoutFilter@12b6ca57, com.cg.hbm.security.JwtAuthenticationFilter@735faf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12be9668, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ce3cbdf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@273fd36d, org.springframework.security.web.session.SessionManagementFilter@38d7d28a, org.springframework.security.web.access.ExceptionTranslationFilter@174ff44b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41117955]
+2023-11-20 08:58:40 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 08:58:40 [INFO] - LiveReload server is running on port 35729
+2023-11-20 08:58:41 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 08:58:41 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 08:58:41 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 08:58:41 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 08:58:41 [INFO] - Context refreshed
+2023-11-20 08:58:41 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 08:58:41 [INFO] - Scanning for api listing references
+2023-11-20 08:58:42 [INFO] - Started HotelBookingManagementSystemApplication in 18.08 seconds (JVM running for 19.749)
+2023-11-20 09:51:29 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 11708 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 09:51:29 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 09:51:29 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 09:51:29 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-20 09:51:29 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-20 09:51:31 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 09:51:31 [INFO] - Finished Spring Data repository scanning in 124 ms. Found 6 JPA repository interfaces.
+2023-11-20 09:51:32 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 09:51:32 [INFO] - Starting service [Tomcat]
+2023-11-20 09:51:32 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 09:51:33 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 09:51:33 [INFO] - Root WebApplicationContext: initialization completed in 3529 ms
+2023-11-20 09:51:33 [INFO] - HikariPool-1 - Starting...
+2023-11-20 09:51:34 [INFO] - HikariPool-1 - Start completed.
+2023-11-20 09:51:35 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 09:51:36 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 09:51:36 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 09:51:37 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 09:51:37 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@165b2245, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5be8e84f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5764f7db, org.springframework.security.web.header.HeaderWriterFilter@1a23911b, org.springframework.security.web.authentication.logout.LogoutFilter@177de86, com.cg.hbm.security.JwtAuthenticationFilter@69ca62e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a17c17e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a53fcbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71ee392a, org.springframework.security.web.session.SessionManagementFilter@7fd744a1, org.springframework.security.web.access.ExceptionTranslationFilter@168f87a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40334cc0]
+2023-11-20 09:51:37 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 09:51:37 [INFO] - LiveReload server is running on port 35729
+2023-11-20 09:51:37 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 09:51:38 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 09:51:38 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 09:51:38 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 09:51:38 [INFO] - Context refreshed
+2023-11-20 09:51:38 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 09:51:38 [INFO] - Scanning for api listing references
+2023-11-20 09:51:38 [INFO] - Started HotelBookingManagementSystemApplication in 10.208 seconds (JVM running for 11.089)
+2023-11-20 09:52:26 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 09:52:26 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 09:52:26 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 09:52:26 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 09:52:26 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 09:52:26 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@687146e7
+2023-11-20 09:52:26 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@664110ab
+2023-11-20 09:52:26 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 09:52:26 [INFO] - Completed initialization in 7 ms
+2023-11-20 09:52:27 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 09:52:27 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 09:52:27 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:27 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 09:52:27 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 09:52:27 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 09:52:27 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 09:52:28 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 09:52:28 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:28 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0NzIxNDcsI (truncated)...]
+2023-11-20 09:52:28 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:41 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-20 09:52:41 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-20 09:52:41 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:41 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:41 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@5f646c78]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@32c7955e]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@d295463]]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-20 09:52:42 [DEBUG] - GET "/", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 09:52:42 [DEBUG] - Resource not found
+2023-11-20 09:52:42 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 09:52:42 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [{timestamp=Mon Nov 20 09:52:42 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 09:52:42 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 09:52:42 [DEBUG] - GET "/csrf", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 09:52:42 [DEBUG] - Resource not found
+2023-11-20 09:52:42 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 09:52:42 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [{timestamp=Mon Nov 20 09:52:42 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 09:52:42 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 09:52:42 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 09:52:42 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@3b8d1b86]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-20 09:52:42 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-20 09:52:42 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:42 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 09:52:42 [DEBUG] - Completed 200 OK
+2023-11-20 10:05:57 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 10:05:57 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 10:05:57 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 10:05:57 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 10:05:57 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 10:05:57 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:05:57 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0NzI5NTcsI (truncated)...]
+2023-11-20 10:05:57 [DEBUG] - Completed 200 OK
+2023-11-20 10:13:53 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 10:13:53 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 10:13:53 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 10:13:53 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 10:13:53 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 10:13:53 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:13:53 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0NzM0MzMsI (truncated)...]
+2023-11-20 10:13:53 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@5dcd89d7]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@109b2105]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@3689796]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-20 10:14:47 [DEBUG] - GET "/", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 10:14:47 [DEBUG] - Resource not found
+2023-11-20 10:14:47 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 10:14:47 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Writing [{timestamp=Mon Nov 20 10:14:47 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 10:14:47 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 10:14:47 [DEBUG] - GET "/csrf", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 10:14:47 [DEBUG] - Resource not found
+2023-11-20 10:14:47 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 10:14:47 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:14:47 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@3fb4490d]
+2023-11-20 10:14:47 [DEBUG] - Writing [{timestamp=Mon Nov 20 10:14:47 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 10:14:47 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:14:47 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-20 10:14:47 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 10:14:47 [DEBUG] - Completed 200 OK
+2023-11-20 10:15:05 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 10:15:05 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 10:15:05 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 10:15:05 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 10:15:05 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 10:15:05 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 10:15:05 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0NzM1MDUsI (truncated)...]
+2023-11-20 10:15:05 [DEBUG] - Completed 200 OK
+2023-11-20 11:23:48 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 11:23:48 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 11:23:48 [DEBUG] - Completed 200 OK
+2023-11-20 11:23:48 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 11:23:48 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 11:23:48 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 11:23:48 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 11:23:48 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 11:23:48 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 11:23:48 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0Nzc2MjgsI (truncated)...]
+2023-11-20 11:23:48 [DEBUG] - Completed 200 OK
+2023-11-20 11:32:46 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 11:32:46 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 11:32:46 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 11:32:46 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 11:32:46 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 11:32:46 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 11:32:46 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0NzgxNjYsI (truncated)...]
+2023-11-20 11:32:46 [DEBUG] - Completed 200 OK
+2023-11-20 14:35:50 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 11304 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 14:35:50 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 14:35:50 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 14:35:50 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-20 14:35:50 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-20 14:35:51 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 14:35:51 [INFO] - Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2023-11-20 14:35:52 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 14:35:52 [INFO] - Starting service [Tomcat]
+2023-11-20 14:35:52 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 14:35:52 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 14:35:52 [INFO] - Root WebApplicationContext: initialization completed in 2545 ms
+2023-11-20 14:35:53 [INFO] - HikariPool-1 - Starting...
+2023-11-20 14:35:53 [INFO] - HikariPool-1 - Start completed.
+2023-11-20 14:35:54 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 14:35:55 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 14:35:55 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 14:35:56 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 14:35:56 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7747d923, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a94ee8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@c145244, org.springframework.security.web.header.HeaderWriterFilter@385ecd64, org.springframework.security.web.authentication.logout.LogoutFilter@db0a340, com.cg.hbm.security.JwtAuthenticationFilter@29b72b90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42213653, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a30e272, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f2b6474, org.springframework.security.web.session.SessionManagementFilter@14e6bf4d, org.springframework.security.web.access.ExceptionTranslationFilter@1443b66f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75b407b8]
+2023-11-20 14:35:56 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 14:35:56 [INFO] - LiveReload server is running on port 35729
+2023-11-20 14:35:56 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 14:35:56 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 14:35:56 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 14:35:56 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 14:35:56 [INFO] - Context refreshed
+2023-11-20 14:35:56 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 14:35:56 [INFO] - Scanning for api listing references
+2023-11-20 14:35:57 [INFO] - Started HotelBookingManagementSystemApplication in 7.817 seconds (JVM running for 8.587)
+2023-11-20 14:36:12 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 14:36:12 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 14:36:12 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 14:36:12 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 14:36:12 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 14:36:12 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5a816e4
+2023-11-20 14:36:12 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@21f7a5ee
+2023-11-20 14:36:12 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 14:36:12 [INFO] - Completed initialization in 3 ms
+2023-11-20 14:36:12 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 14:36:12 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 14:36:12 [DEBUG] - Completed 200 OK
+2023-11-20 14:36:12 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 14:36:12 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 14:36:12 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 14:36:12 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 14:36:13 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 14:36:13 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 14:36:13 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0ODkxNzMsI (truncated)...]
+2023-11-20 14:36:13 [DEBUG] - Completed 200 OK
+2023-11-20 14:48:36 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 14:48:36 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 14:48:36 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 14:48:36 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 14:48:37 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 14:48:37 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 14:48:37 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0ODk5MTcsI (truncated)...]
+2023-11-20 14:48:37 [DEBUG] - Completed 200 OK
+2023-11-20 15:51:26 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 15:51:26 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 15:51:26 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 15:51:26 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-20 15:51:26 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-20 15:51:27 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 15:51:28 [INFO] - Finished Spring Data repository scanning in 120 ms. Found 6 JPA repository interfaces.
+2023-11-20 15:51:29 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 15:51:29 [INFO] - Starting service [Tomcat]
+2023-11-20 15:51:29 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 15:51:29 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 15:51:29 [INFO] - Root WebApplicationContext: initialization completed in 3167 ms
+2023-11-20 15:51:30 [INFO] - HikariPool-1 - Starting...
+2023-11-20 15:51:30 [INFO] - HikariPool-1 - Start completed.
+2023-11-20 15:51:31 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 15:51:32 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 15:51:32 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 15:51:32 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 15:51:33 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b690c85, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d346f96, org.springframework.security.web.context.SecurityContextPersistenceFilter@60935f54, org.springframework.security.web.header.HeaderWriterFilter@4cf42a86, org.springframework.security.web.authentication.logout.LogoutFilter@45a7b93, com.cg.hbm.security.JwtAuthenticationFilter@242cab99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fd744a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a17c17e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47bb75bc, org.springframework.security.web.session.SessionManagementFilter@1c742f62, org.springframework.security.web.access.ExceptionTranslationFilter@6946e6e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7df8f14a]
+2023-11-20 15:51:33 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 15:51:33 [INFO] - LiveReload server is running on port 35729
+2023-11-20 15:51:33 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 15:51:33 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 15:51:33 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 15:51:33 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 15:51:33 [INFO] - Context refreshed
+2023-11-20 15:51:33 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 15:51:33 [INFO] - Scanning for api listing references
+2023-11-20 15:51:34 [INFO] - Started HotelBookingManagementSystemApplication in 8.694 seconds (JVM running for 9.781)
+2023-11-20 15:51:56 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 15:51:56 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 15:51:56 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 15:51:56 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 15:51:56 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 15:51:56 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a3bc8eb
+2023-11-20 15:51:56 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@79a29a63
+2023-11-20 15:51:56 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 15:51:56 [INFO] - Completed initialization in 4 ms
+2023-11-20 15:51:56 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 15:51:56 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 15:51:56 [DEBUG] - Completed 200 OK
+2023-11-20 15:51:56 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 15:51:56 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 15:51:56 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 15:51:56 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 15:51:56 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 15:51:56 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 15:51:56 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTM3MTYsI (truncated)...]
+2023-11-20 15:51:56 [DEBUG] - Completed 200 OK
+2023-11-20 16:02:31 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:02:31 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:02:31 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:02:31 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:02:32 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:02:32 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:02:32 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTQzNTIsI (truncated)...]
+2023-11-20 16:02:32 [DEBUG] - Completed 200 OK
+2023-11-20 16:05:22 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:05:22 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:05:22 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:05:22 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:05:23 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:05:23 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:05:23 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTQ1MjMsI (truncated)...]
+2023-11-20 16:05:23 [DEBUG] - Completed 200 OK
+2023-11-20 16:05:43 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:05:43 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:05:43 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:05:43 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:05:43 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:05:43 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:05:43 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTQ1NDMsI (truncated)...]
+2023-11-20 16:05:43 [DEBUG] - Completed 200 OK
+2023-11-20 16:13:53 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-20 16:13:53 [INFO] - Stopping service [Tomcat]
+2023-11-20 16:13:53 [INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-20 16:13:53 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-20 16:13:54 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:13:54 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-20 16:13:54 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-20 16:13:54 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:13:54 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:13:54 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:13:54 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:13:54 [INFO] - Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:13:55 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:13:55 [INFO] - Starting service [Tomcat]
+2023-11-20 16:13:55 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:13:55 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:13:55 [INFO] - Root WebApplicationContext: initialization completed in 821 ms
+2023-11-20 16:13:55 [INFO] - HikariPool-2 - Starting...
+2023-11-20 16:13:55 [INFO] - HikariPool-2 - Start completed.
+2023-11-20 16:13:55 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:13:55 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:13:55 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:13:56 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:13:56 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a57a4c1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bda4314, org.springframework.security.web.context.SecurityContextPersistenceFilter@39b3c233, org.springframework.security.web.header.HeaderWriterFilter@1739ca5d, org.springframework.security.web.authentication.logout.LogoutFilter@18bb06ba, com.cg.hbm.security.JwtAuthenticationFilter@7ae49ced, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@620819a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bba4c97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@531ff533, org.springframework.security.web.session.SessionManagementFilter@1c130276, org.springframework.security.web.access.ExceptionTranslationFilter@5a803c10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2864d93b]
+2023-11-20 16:13:56 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:13:56 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:13:56 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:13:56 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:13:56 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:13:56 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:13:56 [INFO] - Context refreshed
+2023-11-20 16:13:56 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:13:56 [INFO] - Scanning for api listing references
+2023-11-20 16:13:56 [INFO] - Started HotelBookingManagementSystemApplication in 2.633 seconds (JVM running for 1352.427)
+2023-11-20 16:13:56 [INFO] - Condition evaluation unchanged
+2023-11-20 16:15:36 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-20 16:15:36 [INFO] - Stopping service [Tomcat]
+2023-11-20 16:15:36 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-20 16:15:36 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:15:36 [INFO] - HikariPool-2 - Shutdown initiated...
+2023-11-20 16:15:36 [INFO] - HikariPool-2 - Shutdown completed.
+2023-11-20 16:15:36 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:15:36 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:15:36 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:15:37 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:15:37 [INFO] - Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:15:37 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:15:37 [INFO] - Starting service [Tomcat]
+2023-11-20 16:15:37 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:15:37 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:15:37 [INFO] - Root WebApplicationContext: initialization completed in 750 ms
+2023-11-20 16:15:37 [INFO] - HikariPool-3 - Starting...
+2023-11-20 16:15:37 [INFO] - HikariPool-3 - Start completed.
+2023-11-20 16:15:37 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:15:37 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:15:37 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:15:38 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:15:38 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c0f9c8c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e5f11a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@65333d47, org.springframework.security.web.header.HeaderWriterFilter@38d711f, org.springframework.security.web.authentication.logout.LogoutFilter@16d8a079, com.cg.hbm.security.JwtAuthenticationFilter@6a772985, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46beba21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ed32e60, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c740fe, org.springframework.security.web.session.SessionManagementFilter@e69507e, org.springframework.security.web.access.ExceptionTranslationFilter@f458d65, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fe21d82]
+2023-11-20 16:15:38 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:15:38 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:15:38 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:15:38 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:15:38 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:15:38 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:15:38 [INFO] - Context refreshed
+2023-11-20 16:15:38 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:15:38 [INFO] - Scanning for api listing references
+2023-11-20 16:15:38 [INFO] - Started HotelBookingManagementSystemApplication in 1.962 seconds (JVM running for 1454.065)
+2023-11-20 16:15:38 [INFO] - Condition evaluation unchanged
+2023-11-20 16:16:04 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 16:16:04 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 16:16:04 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 16:16:04 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 16:16:04 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 16:16:04 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5e0fd79
+2023-11-20 16:16:04 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7976a2ad
+2023-11-20 16:16:04 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 16:16:04 [INFO] - Completed initialization in 4 ms
+2023-11-20 16:16:04 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:16:04 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:16:04 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:16:04 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:16:04 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:16:04 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:16:04 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTUxNjQsI (truncated)...]
+2023-11-20 16:16:04 [DEBUG] - Completed 200 OK
+2023-11-20 16:17:47 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-20 16:17:47 [INFO] - Stopping service [Tomcat]
+2023-11-20 16:17:47 [INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-20 16:17:47 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-20 16:17:47 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:17:47 [INFO] - HikariPool-3 - Shutdown initiated...
+2023-11-20 16:17:47 [INFO] - HikariPool-3 - Shutdown completed.
+2023-11-20 16:17:47 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:17:47 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:17:47 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:17:48 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:17:48 [INFO] - Finished Spring Data repository scanning in 134 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:17:48 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:17:48 [INFO] - Starting service [Tomcat]
+2023-11-20 16:17:48 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:17:48 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:17:48 [INFO] - Root WebApplicationContext: initialization completed in 1078 ms
+2023-11-20 16:17:48 [INFO] - HikariPool-4 - Starting...
+2023-11-20 16:17:48 [INFO] - HikariPool-4 - Start completed.
+2023-11-20 16:17:48 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:17:49 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:17:49 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:17:49 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:17:49 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@350b4776, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ac71292, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f9bc3fd, org.springframework.security.web.header.HeaderWriterFilter@61d76baf, org.springframework.security.web.authentication.logout.LogoutFilter@4dd99c39, com.cg.hbm.security.JwtAuthenticationFilter@162f43b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48117010, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1241f0ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ccf7292, org.springframework.security.web.session.SessionManagementFilter@306bc509, org.springframework.security.web.access.ExceptionTranslationFilter@8f5eb1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@241e3881]
+2023-11-20 16:17:49 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:17:49 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:17:49 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:17:49 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:17:49 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:17:49 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:17:49 [INFO] - Context refreshed
+2023-11-20 16:17:49 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:17:49 [INFO] - Scanning for api listing references
+2023-11-20 16:17:49 [INFO] - Started HotelBookingManagementSystemApplication in 2.276 seconds (JVM running for 1585.353)
+2023-11-20 16:17:49 [INFO] - Condition evaluation unchanged
+2023-11-20 16:19:32 [INFO] - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-11-20 16:19:32 [INFO] - Stopping service [Tomcat]
+2023-11-20 16:19:32 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-20 16:19:32 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:19:32 [INFO] - HikariPool-4 - Shutdown initiated...
+2023-11-20 16:19:32 [INFO] - HikariPool-4 - Shutdown completed.
+2023-11-20 16:19:32 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:19:32 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:19:32 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:19:33 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:19:33 [INFO] - Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:19:33 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:19:33 [INFO] - Starting service [Tomcat]
+2023-11-20 16:19:33 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:19:33 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:19:33 [INFO] - Root WebApplicationContext: initialization completed in 800 ms
+2023-11-20 16:19:33 [INFO] - HikariPool-5 - Starting...
+2023-11-20 16:19:33 [INFO] - HikariPool-5 - Start completed.
+2023-11-20 16:19:34 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:19:34 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:19:34 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:19:34 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:19:34 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7cd3df10, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b08d657, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ef7add8, org.springframework.security.web.header.HeaderWriterFilter@3eeef929, org.springframework.security.web.authentication.logout.LogoutFilter@e3e6996, com.cg.hbm.security.JwtAuthenticationFilter@6307afa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d6d3b6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1483a65f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@711e713d, org.springframework.security.web.session.SessionManagementFilter@3eccfe5e, org.springframework.security.web.access.ExceptionTranslationFilter@59bf50dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19403134]
+2023-11-20 16:19:34 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:19:34 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:19:34 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:19:34 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:19:34 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:19:34 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:19:34 [INFO] - Context refreshed
+2023-11-20 16:19:34 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:19:34 [INFO] - Scanning for api listing references
+2023-11-20 16:19:34 [INFO] - Started HotelBookingManagementSystemApplication in 1.87 seconds (JVM running for 1690.373)
+2023-11-20 16:19:34 [INFO] - Condition evaluation unchanged
+2023-11-20 16:23:02 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-20 16:23:02 [INFO] - Stopping service [Tomcat]
+2023-11-20 16:23:02 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-20 16:23:02 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:23:02 [INFO] - HikariPool-5 - Shutdown initiated...
+2023-11-20 16:23:02 [INFO] - HikariPool-5 - Shutdown completed.
+2023-11-20 16:23:02 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 1256 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:23:02 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:23:02 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:23:02 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:23:02 [INFO] - Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:23:03 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:23:03 [INFO] - Starting service [Tomcat]
+2023-11-20 16:23:03 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:23:03 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:23:03 [INFO] - Root WebApplicationContext: initialization completed in 623 ms
+2023-11-20 16:23:03 [INFO] - HikariPool-6 - Starting...
+2023-11-20 16:23:03 [INFO] - HikariPool-6 - Start completed.
+2023-11-20 16:23:03 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:23:03 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:23:03 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:23:03 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:23:03 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c4b6b36, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c1cf07a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bf41ae5, org.springframework.security.web.header.HeaderWriterFilter@216d68e0, org.springframework.security.web.authentication.logout.LogoutFilter@298ecb9, com.cg.hbm.security.JwtAuthenticationFilter@474b2d3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3aa4e58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@494a1ca5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c2b48e5, org.springframework.security.web.session.SessionManagementFilter@63526d17, org.springframework.security.web.access.ExceptionTranslationFilter@78cc0152, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e693e58]
+2023-11-20 16:23:03 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:23:03 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:23:03 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:23:03 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:23:03 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:23:03 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:23:03 [INFO] - Context refreshed
+2023-11-20 16:23:03 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:23:03 [INFO] - Scanning for api listing references
+2023-11-20 16:23:03 [INFO] - Started HotelBookingManagementSystemApplication in 1.506 seconds (JVM running for 1899.496)
+2023-11-20 16:23:03 [INFO] - Condition evaluation unchanged
+2023-11-20 16:23:16 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 16:23:16 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 16:23:16 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 16:23:16 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 16:23:16 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 16:23:16 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1d43f558
+2023-11-20 16:23:16 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6f6a8df6
+2023-11-20 16:23:16 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 16:23:16 [INFO] - Completed initialization in 4 ms
+2023-11-20 16:23:16 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 16:23:16 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:23:16 [DEBUG] - Completed 200 OK
+2023-11-20 16:23:16 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:23:16 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:23:16 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:23:16 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:23:16 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:23:16 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:23:16 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTU1OTYsI (truncated)...]
+2023-11-20 16:23:16 [DEBUG] - Completed 200 OK
+2023-11-20 16:26:19 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:26:19 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:26:19 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:26:19 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:26:20 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:26:20 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:26:20 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTU3ODAsI (truncated)...]
+2023-11-20 16:26:20 [DEBUG] - Completed 200 OK
+2023-11-20 16:29:30 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:29:30 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:29:30 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:29:30 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:29:30 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:29:30 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:29:30 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTU5NzAsI (truncated)...]
+2023-11-20 16:29:30 [DEBUG] - Completed 200 OK
+2023-11-20 16:30:01 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:30:01 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:30:01 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:30:01 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:30:01 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:30:01 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:30:01 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTYwMDEsI (truncated)...]
+2023-11-20 16:30:01 [DEBUG] - Completed 200 OK
+2023-11-20 16:30:38 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:30:38 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:30:38 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:30:38 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:30:38 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:30:38 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:30:38 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTYwMzgsI (truncated)...]
+2023-11-20 16:30:38 [DEBUG] - Completed 200 OK
+2023-11-20 16:35:50 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:35:50 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:35:50 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:35:50 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:35:51 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:35:51 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:35:51 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTYzNTEsI (truncated)...]
+2023-11-20 16:35:51 [DEBUG] - Completed 200 OK
+2023-11-20 16:36:22 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:36:22 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:36:22 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:36:22 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:36:22 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:36:22 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:36:22 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTYzODIsI (truncated)...]
+2023-11-20 16:36:22 [DEBUG] - Completed 200 OK
+2023-11-20 16:38:12 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:38:12 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:38:12 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:38:12 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:38:13 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:38:13 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:38:13 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTY0OTMsI (truncated)...]
+2023-11-20 16:38:13 [DEBUG] - Completed 200 OK
+2023-11-20 16:38:37 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:38:37 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:38:37 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:38:37 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:38:37 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:38:37 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:38:37 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTY1MTcsI (truncated)...]
+2023-11-20 16:38:37 [DEBUG] - Completed 200 OK
+2023-11-20 16:39:44 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:39:44 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:39:44 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:39:44 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:39:44 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:39:44 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:39:44 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTY1ODQsI (truncated)...]
+2023-11-20 16:39:44 [DEBUG] - Completed 200 OK
+2023-11-20 16:42:40 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:42:40 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:42:40 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat234)]
+2023-11-20 16:42:40 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 16:42:40 [INFO] - User 'pratik@test.com' successfully authenticated and token generated.
+2023-11-20 16:42:40 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:42:40 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmF0aWtAdGVzdC5jb20iLCJleHAiOjE3MDA0OTY3NjAsI (truncated)...]
+2023-11-20 16:42:40 [DEBUG] - Completed 200 OK
+2023-11-20 16:55:40 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 21376 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-20 16:55:40 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-20 16:55:40 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-20 16:55:41 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-20 16:55:41 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-20 16:55:42 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-20 16:55:42 [INFO] - Finished Spring Data repository scanning in 128 ms. Found 6 JPA repository interfaces.
+2023-11-20 16:55:44 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-20 16:55:44 [INFO] - Starting service [Tomcat]
+2023-11-20 16:55:44 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-20 16:55:44 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-20 16:55:44 [INFO] - Root WebApplicationContext: initialization completed in 3260 ms
+2023-11-20 16:55:45 [INFO] - HikariPool-1 - Starting...
+2023-11-20 16:55:45 [INFO] - HikariPool-1 - Start completed.
+2023-11-20 16:55:48 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-20 16:55:48 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-20 16:55:48 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-20 16:55:49 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-20 16:55:49 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4cb2d8ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3175f6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e221674, org.springframework.security.web.header.HeaderWriterFilter@4bbbbe38, org.springframework.security.web.authentication.logout.LogoutFilter@1fb0fdc5, com.cg.hbm.security.JwtAuthenticationFilter@72cab70d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@332f40d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4df4286d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31e6ab44, org.springframework.security.web.session.SessionManagementFilter@233d5931, org.springframework.security.web.access.ExceptionTranslationFilter@17b4d29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2633d2e6]
+2023-11-20 16:55:49 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-20 16:55:50 [INFO] - LiveReload server is running on port 35729
+2023-11-20 16:55:50 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-20 16:55:50 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-20 16:55:50 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-20 16:55:50 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-20 16:55:50 [INFO] - Context refreshed
+2023-11-20 16:55:50 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-20 16:55:50 [INFO] - Scanning for api listing references
+2023-11-20 16:55:51 [INFO] - Started HotelBookingManagementSystemApplication in 10.698 seconds (JVM running for 11.608)
+2023-11-20 16:56:02 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-20 16:56:02 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-20 16:56:02 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-20 16:56:02 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-20 16:56:02 [DEBUG] - Detected FixedThemeResolver
+2023-11-20 16:56:02 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f12ac56
+2023-11-20 16:56:02 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6dc3c68b
+2023-11-20 16:56:02 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-20 16:56:02 [INFO] - Completed initialization in 5 ms
+2023-11-20 16:56:02 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:02 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-20 16:56:02 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-20 16:56:02 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:02 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:02 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-20 16:56:02 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@1c0ae758]
+2023-11-20 16:56:03 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@595bfc0]
+2023-11-20 16:56:03 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@3ec9849c]]
+2023-11-20 16:56:03 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - GET "/", parameters={}
+2023-11-20 16:56:03 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 16:56:03 [DEBUG] - Resource not found
+2023-11-20 16:56:03 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 16:56:03 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [{timestamp=Mon Nov 20 16:56:03 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 16:56:03 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 16:56:03 [DEBUG] - GET "/csrf", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-20 16:56:03 [DEBUG] - Resource not found
+2023-11-20 16:56:03 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-20 16:56:03 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [{timestamp=Mon Nov 20 16:56:03 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-20 16:56:03 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-20 16:56:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:03 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:56:03 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@5cda4c8c]
+2023-11-20 16:56:03 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-20 16:56:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-20 16:56:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:04 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:04 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:04 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:06 [DEBUG] - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2023-11-20 16:56:06 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:06 [DEBUG] - Completed 200 OK
+2023-11-20 16:56:18 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-11-20 16:56:18 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-20 16:56:18 [DEBUG] - Completed 200 OK
+2023-11-20 16:57:02 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 16:57:02 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:57:02 [DEBUG] - Completed 200 OK
+2023-11-20 16:57:02 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 16:57:02 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 16:57:02 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 16:57:02 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 16:57:02 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 16:57:02 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 16:57:02 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTc2MjIsI (truncated)...]
+2023-11-20 16:57:02 [DEBUG] - Completed 200 OK
+2023-11-20 17:00:51 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:00:51 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:00:51 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:00:51 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:00:51 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:00:51 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:00:51 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTc4NTEsI (truncated)...]
+2023-11-20 17:00:51 [DEBUG] - Completed 200 OK
+2023-11-20 17:04:14 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:04:14 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:04:14 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:04:14 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:04:14 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:04:14 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:04:14 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTgwNTQsI (truncated)...]
+2023-11-20 17:04:14 [DEBUG] - Completed 200 OK
+2023-11-20 17:07:34 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:07:34 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:07:34 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:07:34 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:07:34 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:07:34 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:07:34 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTgyNTQsI (truncated)...]
+2023-11-20 17:07:34 [DEBUG] - Completed 200 OK
+2023-11-20 17:29:49 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 17:29:49 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:29:49 [DEBUG] - Completed 200 OK
+2023-11-20 17:29:49 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:29:49 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:29:49 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:29:49 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:29:49 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:29:49 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:29:49 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTk1ODksI (truncated)...]
+2023-11-20 17:29:49 [DEBUG] - Completed 200 OK
+2023-11-20 17:32:57 [DEBUG] - OPTIONS "/public/login", parameters={}
+2023-11-20 17:32:57 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:32:57 [DEBUG] - Completed 200 OK
+2023-11-20 17:32:57 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:32:57 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:32:57 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:32:57 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:32:58 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:32:58 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:32:58 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA0OTk3NzgsI (truncated)...]
+2023-11-20 17:32:58 [DEBUG] - Completed 200 OK
+2023-11-20 17:48:04 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:48:04 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:48:04 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:48:04 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:48:04 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:48:04 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:48:04 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA2ODQsI (truncated)...]
+2023-11-20 17:48:04 [DEBUG] - Completed 200 OK
+2023-11-20 17:48:45 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:48:45 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:48:45 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat342)]
+2023-11-20 17:48:45 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 17:48:45 [ERROR] - Invalid Details !!
+org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:80)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:531)
+	at com.cg.hbm.controller.AuthController.authenticate(AuthController.java:79)
+	at com.cg.hbm.controller.AuthController.createToken(AuthController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-20 17:48:45 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleApiException(ApiException)
+2023-11-20 17:48:45 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:48:45 [DEBUG] - Writing [ApiResponse(message=Invalid username or password !!, status=false)]
+2023-11-20 17:48:45 [WARN] - Resolved [com.cg.hbm.exception.ApiException: Invalid username or password !!]
+2023-11-20 17:48:45 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-20 17:49:19 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:49:19 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:49:19 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat432)]
+2023-11-20 17:49:19 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 17:49:19 [ERROR] - Invalid Details !!
+org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:80)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:531)
+	at com.cg.hbm.controller.AuthController.authenticate(AuthController.java:79)
+	at com.cg.hbm.controller.AuthController.createToken(AuthController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-20 17:49:19 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleApiException(ApiException)
+2023-11-20 17:49:19 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:49:19 [DEBUG] - Writing [ApiResponse(message=Invalid username or password !!, status=false)]
+2023-11-20 17:49:19 [WARN] - Resolved [com.cg.hbm.exception.ApiException: Invalid username or password !!]
+2023-11-20 17:49:19 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-20 17:49:32 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:49:32 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:49:32 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat342)]
+2023-11-20 17:49:32 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 17:49:32 [ERROR] - Invalid Details !!
+org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:80)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:531)
+	at com.cg.hbm.controller.AuthController.authenticate(AuthController.java:79)
+	at com.cg.hbm.controller.AuthController.createToken(AuthController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-20 17:49:32 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleApiException(ApiException)
+2023-11-20 17:49:32 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:49:32 [DEBUG] - Writing [ApiResponse(message=Invalid username or password !!, status=false)]
+2023-11-20 17:49:32 [WARN] - Resolved [com.cg.hbm.exception.ApiException: Invalid username or password !!]
+2023-11-20 17:49:32 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-20 17:49:41 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:49:41 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:49:41 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:49:41 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:49:41 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:49:41 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:49:41 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA3ODEsI (truncated)...]
+2023-11-20 17:49:41 [DEBUG] - Completed 200 OK
+2023-11-20 17:50:24 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:50:24 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:50:24 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat234)]
+2023-11-20 17:50:24 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 17:50:24 [INFO] - User 'pratik@test.com' successfully authenticated and token generated.
+2023-11-20 17:50:24 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:50:24 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmF0aWtAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA4MjQsI (truncated)...]
+2023-11-20 17:50:24 [DEBUG] - Completed 200 OK
+2023-11-20 17:50:43 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:50:43 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:50:43 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:50:43 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:50:43 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:50:43 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:50:43 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA4NDMsI (truncated)...]
+2023-11-20 17:50:43 [DEBUG] - Completed 200 OK
+2023-11-20 17:50:56 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:50:56 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:50:56 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=pratik@test.com, password=Prat234)]
+2023-11-20 17:50:56 [INFO] - Attempting to authenticate user: pratik@test.com
+2023-11-20 17:50:57 [INFO] - User 'pratik@test.com' successfully authenticated and token generated.
+2023-11-20 17:50:57 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:50:57 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmF0aWtAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA4NTcsI (truncated)...]
+2023-11-20 17:50:57 [DEBUG] - Completed 200 OK
+2023-11-20 17:52:17 [DEBUG] - POST "/public/login", parameters={}
+2023-11-20 17:52:17 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-20 17:52:17 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-20 17:52:17 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-20 17:52:17 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-20 17:52:17 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-20 17:52:17 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDA1MDA5MzcsI (truncated)...]
+2023-11-20 17:52:17 [DEBUG] - Completed 200 OK
